@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:lightgreen;
+}
+header  {                   
+    width: 100%;
+    margin: 0;
+    padding: 20px; 
+    box-sizing: border-box;
+    background-image:url("https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+nav {
+    background-color:lightseagreen;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: white;
+    border-style: double;
+}
+
+li {
+    display: inline; 
+    list-style-type: none; 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+.delete-link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+
+.container {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    height: fit-content;
+    min-height: 400px;
+}
+.box {
+    text-align: left;
+    height: fit-content;
+}
+
+
+.box2 {
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+}
+
+
+
+.box3 {
+    width: fit-content;
+    height: fit-content;
+    text-align: right;
+}
+
+.box4 {
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 2%;
+}
+
+.box5 {
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 2%;
+}
+
+footer {
+    background-color: lightseagreen;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    font-size: 0.9em;
+    line-height: 15px;
+    color: white;
+}
